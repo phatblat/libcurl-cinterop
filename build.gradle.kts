@@ -27,6 +27,12 @@ kotlin {
         compilations.getByName("main") {
             cinterops {
                 val libcurl by creating
+//                val libcurl by creating {
+//                    definitionFile.set(project.file("src/nativeInterop/cinterop/libcurl.def"))
+//                    packageName("com.jetbrains.handson.http")
+//                    compilerOpts("-I/path")
+//                    includeDirs.allHeaders("path")
+//                }
             }
         }
         binaries {
