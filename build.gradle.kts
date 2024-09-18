@@ -24,7 +24,7 @@ kotlin {
     }
 
     nativeTarget.apply {
-        compilations.getByName("main") {
+        compilations.named("main") {
             cinterops {
                 val libcurl by creating
 //                val libcurl by creating {
