@@ -5,4 +5,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = "libcurl"
+rootProject.name = "libcurl-cinterop"
